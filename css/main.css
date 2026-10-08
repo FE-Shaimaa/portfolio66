@@ -1,0 +1,541 @@
+.nav2 {
+    background-color: rgba(0, 0, 0, 0.877) !important;
+}
+.font2 {
+    color: #fff !important;
+}
+a.F {
+    position: relative;
+}
+
+a.F::after {
+    position: absolute;
+    left: 15%;
+    bottom: 15%;
+    content: "";
+    height: 3px;
+    width: 0;
+    transition: width 0.5s;
+    background-color: #FFF;
+}
+a.F:hover::after {
+    width: 50px;
+}
+header {
+    font-family: Rubik;
+}
+@font-face {
+    font-family: Rubik;
+    src: url(../Rubik/static/Rubik-Regular.ttf);
+}
+.title1 {
+    font-size: 4rem;
+    font-weight: 900;
+}
+.Header1 {
+    background-image: linear-gradient(#0000007f, #0000007f),
+        url(../images/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.jop::after {
+    content: "";
+    animation: jops 20s infinite;
+}
+@keyframes jops {
+
+    1% {
+        content: "D|";
+    }
+
+    2% {
+        content: "De|";
+    }
+
+    3% {
+        content: "Dev|";
+    }
+
+    4% {
+        content: "Deve";
+        
+    }
+
+    5% {
+        content: "Devel|";
+    }
+
+    6% {
+        content: "Develo|";
+    }
+
+    7% {
+        content: "Develop|";
+    }
+
+    8% {
+        content: "Develope|";
+    }
+
+    9% {
+        content: "Developer|";
+    }
+
+    10% {
+        content: "Developer";
+    }
+
+    11% {
+        content: "Developer|";
+    }
+
+    12% {
+        content: "Developer";
+    }
+
+    13% {
+        content: "Developer|";
+    }
+
+    14% {
+        content: "Developer";
+    }
+
+    15% {
+        content: "Developer|";
+    }
+
+    16% {
+        content: "Develope|";
+    }
+
+    17% {
+        content: "Develop|";
+    }
+
+    18% {
+        content: "Develo|";
+    }
+
+    19% {
+        content: "Devel|";
+    }
+
+    20% {
+        content: "Deve|";
+    }
+
+    21% {
+        content: "Dev|";
+    }
+
+    22% {
+        content: "De|";
+    }
+
+    23% {
+        content: "D|";
+    }
+
+    24% {
+        content: "F|";
+    }
+
+    25% {
+        content: "Fr|";
+    }
+
+    26% {
+        content: "Fre|";
+    }
+
+    27% {
+        content: "Free";
+        
+    }
+
+    28% {
+        content: "Freel|";
+    }
+
+    29% {
+        content: "Freela|";
+    }
+
+    30% {
+        content: "Freelan|";
+    }
+
+    31% {
+        content: "Freelanc|";
+    }
+
+    32% {
+        content: "Freelance|";
+    }
+
+    33% {
+        content: "Freelancer|";
+    }
+
+    34% {
+        content: "Freelance|";
+    }
+
+    35% {
+        content: "Freelanc|";
+    }
+
+    36% {
+        content: "Freelan|";
+    }
+
+    37% {
+        content: "Freela|";
+    }
+
+    38% {
+        content: "Freel|";
+    }
+
+    39% {
+        content: "Free|";
+    }
+
+    40% {
+        content: "Fre|";
+    }
+
+    41% {
+        content: "Fr|";
+    }
+
+    42% {
+        content: "F|";
+    }
+
+    43% {
+        content: ".";
+    }
+
+    44% {
+        content: "|";
+    }
+
+    45% {
+        content: ".";
+    }
+
+    46% {
+        content: "|";
+    }
+
+    47% {
+        content: ".";
+    }
+
+    48% {
+        content: "|";
+    }
+
+
+    49% {
+        content: "D|";
+    }
+
+    50% {
+        content: "De|";
+    }
+
+    51% {
+        content: "Des|";
+    }
+
+    52% {
+        content: "Desi";
+        
+    }
+
+    53% {
+        content: "Desig|";
+    }
+
+    54% {
+        content: "Design|";
+    }
+
+    55% {
+        content: "Designe|";
+    }
+
+    56% {
+        content: "Designer|";
+    }
+
+    57% {
+        content: "Designe|";
+    }
+
+    58% {
+        content: "Design|";
+    }
+
+    59% {
+        content: "Desig|";
+    }
+
+    60% {
+        content: "Desi|";
+    }
+
+    61% {
+        content: "Des|";
+    }
+
+    62% {
+        content: "De|";
+    }
+
+    63% {
+        content: "D|";
+    }
+
+    64% {
+        content: ".";
+    }
+
+    65% {
+        content: "|";
+    }
+
+    66% {
+        content: ".";
+    }
+
+    67% {
+        content: "|";
+    }
+
+    68% {
+        content: ".";
+    }
+
+    69% {
+        content: "|";
+    }
+
+    70% {
+        content: "P|";
+    }
+
+    71% {
+        content: "Ph|";
+    }
+
+    72% {
+        content: "Pho|";
+    }
+
+    73% {
+        content: "Phot|";
+        
+    }
+
+    74% {
+        content: "Photo|";
+    }
+
+    75% {
+        content: "Photog|";
+    }
+
+    76% {
+        content: "Photogr|";
+    }
+
+    77% {
+        content: "Photogra|";
+    }
+
+    78% {
+        content: "Photograp|";
+    }
+
+    79% {
+        content: "Photograph|";
+    }
+
+    80% {
+        content: "Photographe|";
+    }
+
+    81% {
+        content: "Photographer|";
+    }
+
+    82% {
+        content: "Photographe|";
+    }
+
+    83% {
+        content: "Photograph|";
+    }
+
+    84% {
+        content: "Photograp|";
+    }
+
+    85% {
+        content: "Photogra|";
+    }
+
+    86% {
+        content: "Photogr|";
+    }
+
+    87% {
+        content: "Photog|";
+    }
+
+    88% {
+        content: "Photo|";
+    }
+
+    89% {
+        content: "Phot|";
+    }
+
+    90% {
+        content: "Pho|";
+    }
+
+    91% {
+        content: "Ph|";
+    }
+
+    92% {
+        content: "P|";
+    }
+
+    93% {
+        content: "P|";
+    }
+
+    94% {
+        content: ".";
+    }
+
+    95% {
+        content: "|";
+    }
+
+    96% {
+        content: ".";
+    }
+
+    97% {
+        content: "|";
+    }
+
+    98% {
+        content: ".";
+    }
+
+    99% {
+        content: "|";
+    }
+
+    100% {
+        content: ".";
+    }
+
+}
+span.navbar-toggler-icon {
+    color: #FFF !important;
+}
+#Services,
+.about,
+#Portfolio
+{
+    background-color: #eeeeeea3;
+}
+.ICON {
+    border: #0d6efd 0.6rem solid;
+    transition: all 0.5s;
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ICON:hover {
+    background-color: #0d6efd;
+    border-color: #9ccefc;
+    color: #fff;
+}
+.ICON2 {
+    border: #ddd 0.5rem solid;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ddd {
+    color: #ddd;
+}
+.counter {
+    background-image:
+        linear-gradient(#0d6dfd9a, #0d6dfd9a),
+        url(../images/work-5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.carousel-indicators button,
+.carousel-indicators button img {
+    width: 2rem !important;
+    height: 2rem !important;
+    border-radius: 50%;
+    text-indent: unset !important;
+}
+#SLIDER {
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 119, 255, 0.548), rgba(0, 119, 255, 0.548)),
+        url(../images/slider.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.post {
+    position: relative;
+}
+.post button {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#Blog .foot {
+    background-color: #eeeeee74;
+}
+#Contact {
+    background-image: linear-gradient(rgba(0, 119, 255, 0.548), rgba(0, 119, 255, 0.548)),
+        url(../images/slider.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+footer {
+    background-color: #1455b7;
+}
+.inner-1 .image {
+    overflow: hidden;
+}
+.inner-1 img {
+    transition: all 1s;
+}
+.inner-1:hover img {
+    transform: scale(1.3, 1.3);
+}
